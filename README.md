@@ -29,6 +29,11 @@ mysql -uroot -p123456 artist_at_ease < artist_at_ease.sql
 <pre><code>*/3 * * * * cd /home/work/daiwk/artist_at_ease/docker_server && sh ct_update_status.sh > ct.log 2>&1
 </code></pre>
 
+* **download mxnet model vgg**
+<pre><code>cd /home/work/daiwk/artist_at_ease/docker_server/neural-style/
+sh -x download.sh
+</code></pre>
+
 * **login docker container**
 <pre><code>sh root@180.76.146.23 -p 50002
 </code></pre>
@@ -50,4 +55,4 @@ nohup python app.py 2>&1 &
 </code></pre>
 
 * **REFS:**
-[1]: http://www.templatemo.com/tm-477-puzzle (puzzle template)
+[1]: http://www.templatemo.com/tm-477-puzzle "puzzle template"
