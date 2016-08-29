@@ -1,5 +1,10 @@
 # artist_at_ease
 
+e.g. your server ip is 180.76.146.23
+you can see the demo in a month...
+http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/
+
+
 Preparations-git src
 --------
 * **mkdir && git pull**
@@ -15,7 +20,7 @@ git clone https://github.com/daiwk/artist_at_ease.git
 Preparations-docker
 --------
 * **start a docker container**
-<pre><code>docker pull daocloud.io/daiwk/dl-server-basic:1.0.1
+<pre><code>docker pull daocloud.io/daiwk/dl-server-basic:1.0.2
 nohup sh -x run_docker_dl_server_basic.sh 2>&1 &
 </code></pre>
 
