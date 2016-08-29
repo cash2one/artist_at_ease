@@ -1,6 +1,6 @@
 # artist_at_ease
 
-* **mkdir && git pull **
+* **mkdir && git pull**
 <pre><code>mkdir -p /home/work/daiwk && cd /home/work/daiwk/
 git clone git@github.com:daiwk/artist_at_ease.git
 </code></pre>
@@ -42,3 +42,12 @@ nohup python gt_server.py 2>&1 &
 <pre><code>cd /home/work/daiwk/artist_at_ease/docker_server/neural-style
 nohup python -m CGIHTTPServer 8888 2>&1 &
 </code></pre>
+
+* **start the flask server**
+<pre><code>pip install flask
+cd /home/work/daiwk/artist_at_ease/flask_server/app-demo-python-flask-standalone/
+nohup python app.py 2>&1 &
+</code></pre>
+
+* **REFS:**
+[1]: http://www.templatemo.com/tm-477-puzzle (puzzle template)
