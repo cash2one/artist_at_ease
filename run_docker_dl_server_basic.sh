@@ -1,5 +1,5 @@
 version=$1
-version=1.0.1
+version=1.0.2
 ## run server
 ####docker run -i -p 50002:22 -p 8001:9000 -h daiwk-tensorflow-server --name docker-tensorflow-server -v /home/work/:/notebooks daocloud.io/daiwk/daiwk-tensorflow-latest:$version /usr/sbin/sshd -D 
 
