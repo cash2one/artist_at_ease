@@ -1,8 +1,8 @@
 # artist_at_ease
 
-e.g. your server ip is 180.76.146.23
-you can see the demo in a month...
-http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/
+<p>e.g. your server ip is 180.76.146.23</p>
+<p>you can see the demo in a month...</p>
+<p>http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/</p>
 
 
 Preparations-git src
@@ -48,7 +48,7 @@ sh -x download.sh
 
 Start servers-gt_server
 --------
-* **login docker container**
+* **login docker container(default password is 123)**
 <pre><code>sh root@180.76.146.23 -p 50002
 </code></pre>
 
