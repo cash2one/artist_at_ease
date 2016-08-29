@@ -1,6 +1,6 @@
 # artist_at_ease
 
-* start a docker container
+* **start a docker container**
 
 <pre><code>
 docker pull daocloud.io/daiwk/dl-server-basic:1.0.1
@@ -8,7 +8,7 @@ docker pull daocloud.io/daiwk/dl-server-basic:1.0.1
 nohup sh -x run_docker_dl_server_basic.sh 2>&1 &
 
 </code></pre>
-* install mysql-server
+* **install mysql-server**
 http://wiki.baidu.com/pages/viewpage.action?pageId=187796854
 
 # load schema & data from sql
