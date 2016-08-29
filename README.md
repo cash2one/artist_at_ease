@@ -1,5 +1,15 @@
 # artist_at_ease
 
+* **mkdir && git pull **
+<pre><code>mkdir -p /home/work/daiwk && cd /home/work/daiwk/
+git clone git@github.com:daiwk/artist_at_ease.git
+</code></pre>
+OR
+<pre><code>mkdir -p /home/work/daiwk && cd /home/work/daiwk/
+git clone https://github.com/daiwk/artist_at_ease.git
+</code></pre>
+
+
 * **start a docker container**
 <pre><code>docker pull daocloud.io/daiwk/dl-server-basic:1.0.1
 nohup sh -x run_docker_dl_server_basic.sh 2>&1 &

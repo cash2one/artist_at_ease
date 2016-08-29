@@ -1,4 +1,5 @@
 echo "MONITOR: START at `date`"
+export PYTHONPATH=/root/mxnet/python
 python=python
 input_file=$1 #input/lzj-daye.jpg
 style_file=$2 #input/starry_night.jpg 
