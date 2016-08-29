@@ -55,4 +55,4 @@ nohup python app.py 2>&1 &
 </code></pre>
 
 * **REFS:**
-[1]: http://www.templatemo.com/tm-477-puzzle "puzzle template"
+1.[puzzle template](http://www.templatemo.com/tm-477-puzzle)
