@@ -113,7 +113,7 @@ def send_js(filename):
     ## which means http://cp01-daiwk-docker-test1.epc.baidu.com:8888/static/images/2.jpg
 
 def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.',1)[1] in ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.',1)[1].lower() in ALLOWED_EXTENSIONS
 
 def upload_file(file):
     if file and allowed_file(file.filename):

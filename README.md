@@ -78,4 +78,8 @@ Start crontabs-update task status
 
 References:
 --------
-*[puzzle template](http://www.templatemo.com/tm-477-puzzle)
+* [puzzle template](http://www.templatemo.com/tm-477-puzzle)
+* [neural-style in mxnet](https://github.com/dmlc/mxnet/tree/master/example/neural-style)
+* [neural-style in tensorflow](https://github.com/anishathalye/neural-style)
+* [Blog: Generative Models in OpenAI](https://openai.com/blog/generative-models/)
+* [Code: InfoGAN](https://github.com/openai/InfoGAN)
