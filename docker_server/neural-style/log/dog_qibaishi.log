@@ -1,0 +1,85 @@
++ date
++ echo MONITOR: START at Sat Aug 27 00:10:56 UTC 2016
+MONITOR: START at Sat Aug 27 00:10:56 UTC 2016
++ python=python
++ input_file=input/dog.jpg
++ style_file=style/qibaishi.jpg
++ output_name=dog_qibaishi
++ uniq_id=20160827_08:10:56_dog_qibaishi_20
++ max_num_epochs=20
++ mkdir -p output/dog_qibaishi/
++ /bin/rm -rf output/dog_qibaishi/*
++ output_file=output/dog_qibaishi/dog_qibaishi_20.jpg
++ python run.py --content-image input/dog.jpg --style-image style/qibaishi.jpg --gpu -1 --save-epochs 5 --max-num-epochs 20 --output output/dog_qibaishi/dog_qibaishi_20.jpg
+libdc1394 error: Failed to initialize libdc1394
+INFO:root:load the content image, size = (768, 1024)
+INFO:root:resize the content image to (450, 600)
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:10:57] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+Skip argument target_gram_0
+Skip argument target_gram_1
+Skip argument target_gram_2
+Skip argument target_gram_3
+Skip argument target_gram_4
+Skip argument target_content
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[00:11:42] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+INFO:root:start training arguments Namespace(content_image='input/dog.jpg', content_weight=10, gpu=-1, lr=0.001, max_long_edge=600, max_num_epochs=20, model='vgg19', output='output/dog_qibaishi/dog_qibaishi_20.jpg', remove_noise=0.02, save_epochs=5, stop_eps=0.005, style_image='style/qibaishi.jpg', style_weight=1, tv_weight=0.01)
+INFO:root:epoch 0, relative change 0.993015
+INFO:root:epoch 1, relative change 0.640675
+INFO:root:epoch 2, relative change 0.477824
+INFO:root:epoch 3, relative change 0.387662
+INFO:root:epoch 4, relative change 0.310889
+INFO:root:save output to output/tmp_5.jpg
+/usr/local/lib/python2.7/dist-packages/skimage/util/dtype.py:110: UserWarning: Possible precision loss when converting from float64 to uint8
+  "%s to %s" % (dtypeobj_in, dtypeobj))
+INFO:root:epoch 5, relative change 0.231638
+INFO:root:epoch 6, relative change 0.183232
+INFO:root:epoch 7, relative change 0.157843
+INFO:root:epoch 8, relative change 0.148822
+INFO:root:epoch 9, relative change 0.150739
+INFO:root:save output to output/tmp_10.jpg
+INFO:root:epoch 10, relative change 0.156098
+INFO:root:epoch 11, relative change 0.156543
+INFO:root:epoch 12, relative change 0.151431
+INFO:root:epoch 13, relative change 0.139475
+INFO:root:epoch 14, relative change 0.119344
+INFO:root:save output to output/tmp_15.jpg
+INFO:root:epoch 15, relative change 0.101740
+INFO:root:epoch 16, relative change 0.090456
+INFO:root:epoch 17, relative change 0.085491
+INFO:root:epoch 18, relative change 0.085390
+INFO:root:epoch 19, relative change 0.087986
+INFO:root:save output to output/tmp_20.jpg
+INFO:root:save output to output/dog_qibaishi/dog_qibaishi_20.jpg
+INFO:root:PROC_TIME: [1060928ms], [1060s] [17min] [0h]
+[9.0422453e-10, 9.0422453e-10, 9.0826124e-10, 9.0826124e-10, 3.6821401e-09, 10.0]
++ date
++ echo MONITOR: END at Sat Aug 27 00:28:38 UTC 2016
+MONITOR: END at Sat Aug 27 00:28:38 UTC 2016

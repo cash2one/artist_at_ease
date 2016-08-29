@@ -1,0 +1,206 @@
++ date
++ echo MONITOR: START at Sat Aug 27 05:47:36 UTC 2016
+MONITOR: START at Sat Aug 27 05:47:36 UTC 2016
++ python=python
++ input_file=input/scenary.jpg
++ style_file=style/monai.jpg
++ output_name=scenary_monai
++ uniq_id=20160827_13:47:36_scenary_monai_120
++ max_num_epochs=120
++ mkdir -p output/scenary_monai/
++ /bin/rm -rf output/scenary_monai/*
++ output_file=output/scenary_monai/scenary_monai_120.jpg
++ python run.py --content-image input/scenary.jpg --style-image style/monai.jpg --gpu -1 --save-epochs 5 --max-num-epochs 120 --output output/scenary_monai/scenary_monai_120.jpg
+libdc1394 error: Failed to initialize libdc1394
+INFO:root:load the content image, size = (220, 226)
+INFO:root:resize the content image to (584, 600)
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:47:36] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+Skip argument target_gram_0
+Skip argument target_gram_1
+Skip argument target_gram_2
+Skip argument target_gram_3
+Skip argument target_gram_4
+Skip argument target_content
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:34] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+INFO:root:start training arguments Namespace(content_image='input/scenary.jpg', content_weight=10, gpu=-1, lr=0.001, max_long_edge=600, max_num_epochs=120, model='vgg19', output='output/scenary_monai/scenary_monai_120.jpg', remove_noise=0.02, save_epochs=5, stop_eps=0.005, style_image='style/monai.jpg', style_weight=1, tv_weight=0.01)
+INFO:root:epoch 0, relative change 0.993941
+INFO:root:epoch 1, relative change 0.640461
+INFO:root:epoch 2, relative change 0.476869
+INFO:root:epoch 3, relative change 0.386897
+INFO:root:epoch 4, relative change 0.322548
+INFO:root:save output to output/tmp_5.jpg
+/usr/local/lib/python2.7/dist-packages/skimage/util/dtype.py:110: UserWarning: Possible precision loss when converting from float64 to uint8
+  "%s to %s" % (dtypeobj_in, dtypeobj))
+INFO:root:epoch 5, relative change 0.232947
+INFO:root:epoch 6, relative change 0.174862
+INFO:root:epoch 7, relative change 0.145546
+INFO:root:epoch 8, relative change 0.131793
+INFO:root:epoch 9, relative change 0.128538
+INFO:root:save output to output/tmp_10.jpg
+INFO:root:epoch 10, relative change 0.130946
+INFO:root:epoch 11, relative change 0.134928
+INFO:root:epoch 12, relative change 0.138875
+INFO:root:epoch 13, relative change 0.140165
+INFO:root:epoch 14, relative change 0.122157
+INFO:root:save output to output/tmp_15.jpg
+INFO:root:epoch 15, relative change 0.112893
+INFO:root:epoch 16, relative change 0.102780
+INFO:root:epoch 17, relative change 0.090868
+INFO:root:epoch 18, relative change 0.085174
+INFO:root:epoch 19, relative change 0.083896
+INFO:root:save output to output/tmp_20.jpg
+INFO:root:epoch 20, relative change 0.085199
+INFO:root:epoch 21, relative change 0.088794
+INFO:root:epoch 22, relative change 0.089626
+INFO:root:epoch 23, relative change 0.079867
+INFO:root:epoch 24, relative change 0.083285
+INFO:root:save output to output/tmp_25.jpg
+INFO:root:epoch 25, relative change 0.071467
+INFO:root:epoch 26, relative change 0.075831
+INFO:root:epoch 27, relative change 0.059717
+INFO:root:epoch 28, relative change 0.062979
+INFO:root:epoch 29, relative change 0.058405
+INFO:root:save output to output/tmp_30.jpg
+INFO:root:epoch 30, relative change 0.057760
+INFO:root:epoch 31, relative change 0.050813
+INFO:root:epoch 32, relative change 0.059171
+INFO:root:epoch 33, relative change 0.047725
+INFO:root:epoch 34, relative change 0.057857
+INFO:root:save output to output/tmp_35.jpg
+INFO:root:epoch 35, relative change 0.043416
+INFO:root:epoch 36, relative change 0.049894
+INFO:root:epoch 37, relative change 0.041598
+INFO:root:epoch 38, relative change 0.049765
+INFO:root:epoch 39, relative change 0.036116
+INFO:root:save output to output/tmp_40.jpg
+INFO:root:epoch 40, relative change 0.048085
+INFO:root:epoch 41, relative change 0.036717
+INFO:root:epoch 42, relative change 0.046419
+INFO:root:epoch 43, relative change 0.032292
+INFO:root:epoch 44, relative change 0.045950
+INFO:root:save output to output/tmp_45.jpg
+INFO:root:epoch 45, relative change 0.030451
+INFO:root:epoch 46, relative change 0.043481
+INFO:root:epoch 47, relative change 0.030749
+INFO:root:epoch 48, relative change 0.043648
+INFO:root:epoch 49, relative change 0.030499
+INFO:root:save output to output/tmp_50.jpg
+INFO:root:epoch 50, relative change 0.043346
+INFO:root:epoch 51, relative change 0.026991
+INFO:root:epoch 52, relative change 0.040734
+INFO:root:epoch 53, relative change 0.026121
+INFO:root:epoch 54, relative change 0.040722
+INFO:root:save output to output/tmp_55.jpg
+INFO:root:epoch 55, relative change 0.026535
+INFO:root:epoch 56, relative change 0.041173
+INFO:root:epoch 57, relative change 0.027893
+INFO:root:epoch 58, relative change 0.039499
+INFO:root:epoch 59, relative change 0.025209
+INFO:root:save output to output/tmp_60.jpg
+INFO:root:epoch 60, relative change 0.039268
+INFO:root:epoch 61, relative change 0.023395
+INFO:root:epoch 62, relative change 0.038756
+INFO:root:epoch 63, relative change 0.023435
+INFO:root:epoch 64, relative change 0.036980
+INFO:root:save output to output/tmp_65.jpg
+INFO:root:epoch 65, relative change 0.026262
+INFO:root:epoch 66, relative change 0.035355
+INFO:root:epoch 67, relative change 0.025481
+INFO:root:epoch 68, relative change 0.036652
+INFO:root:epoch 69, relative change 0.024483
+INFO:root:save output to output/tmp_70.jpg
+INFO:root:epoch 70, relative change 0.036955
+INFO:root:epoch 71, relative change 0.022883
+INFO:root:epoch 72, relative change 0.034826
+INFO:root:epoch 73, relative change 0.024722
+INFO:root:epoch 74, relative change 0.030210
+INFO:root:save output to output/tmp_75.jpg
+INFO:root:epoch 75, relative change 0.026948
+INFO:root:epoch 76, relative change 0.026124
+INFO:root:epoch 77, relative change 0.031435
+INFO:root:epoch 78, relative change 0.024379
+INFO:root:epoch 79, relative change 0.035809
+INFO:root:save output to output/tmp_80.jpg
+INFO:root:epoch 80, relative change 0.022268
+INFO:root:Update[81]: Change learning rate to 9.00000e-04
+INFO:root:epoch 81, relative change 0.034525
+INFO:root:epoch 82, relative change 0.024433
+INFO:root:epoch 83, relative change 0.027281
+INFO:root:epoch 84, relative change 0.028813
+INFO:root:save output to output/tmp_85.jpg
+INFO:root:epoch 85, relative change 0.021442
+INFO:root:epoch 86, relative change 0.030680
+INFO:root:epoch 87, relative change 0.022388
+INFO:root:epoch 88, relative change 0.027952
+INFO:root:epoch 89, relative change 0.022646
+INFO:root:save output to output/tmp_90.jpg
+INFO:root:epoch 90, relative change 0.027682
+INFO:root:epoch 91, relative change 0.027279
+INFO:root:epoch 92, relative change 0.020547
+INFO:root:epoch 93, relative change 0.033302
+INFO:root:epoch 94, relative change 0.021025
+INFO:root:save output to output/tmp_95.jpg
+INFO:root:epoch 95, relative change 0.029771
+INFO:root:epoch 96, relative change 0.026048
+INFO:root:epoch 97, relative change 0.030637
+INFO:root:epoch 98, relative change 0.020475
+INFO:root:epoch 99, relative change 0.030936
+INFO:root:save output to output/tmp_100.jpg
+INFO:root:epoch 100, relative change 0.022459
+INFO:root:epoch 101, relative change 0.031800
+INFO:root:epoch 102, relative change 0.018859
+INFO:root:epoch 103, relative change 0.031422
+INFO:root:epoch 104, relative change 0.019660
+INFO:root:save output to output/tmp_105.jpg
+INFO:root:epoch 105, relative change 0.027827
+INFO:root:epoch 106, relative change 0.019492
+INFO:root:epoch 107, relative change 0.028627
+INFO:root:epoch 108, relative change 0.019474
+INFO:root:epoch 109, relative change 0.030223
+INFO:root:save output to output/tmp_110.jpg
+INFO:root:epoch 110, relative change 0.018585
+INFO:root:epoch 111, relative change 0.030213
+INFO:root:epoch 112, relative change 0.018067
+INFO:root:epoch 113, relative change 0.030156
+INFO:root:epoch 114, relative change 0.018661
+INFO:root:save output to output/tmp_115.jpg
+INFO:root:epoch 115, relative change 0.031536
+INFO:root:epoch 116, relative change 0.017546
+INFO:root:epoch 117, relative change 0.031032
+INFO:root:epoch 118, relative change 0.018990
+INFO:root:epoch 119, relative change 0.030913
+INFO:root:save output to output/tmp_120.jpg
+INFO:root:save output to output/scenary_monai/scenary_monai_120.jpg
+INFO:root:PROC_TIME: [7961399ms], [7961s] [132min] [2h]
+[6.9674838e-10, 6.9674838e-10, 6.9674838e-10, 6.9674838e-10, 2.8638869e-09, 10.0]
++ date
++ echo MONITOR: END at Sat Aug 27 08:00:18 UTC 2016
+MONITOR: END at Sat Aug 27 08:00:18 UTC 2016

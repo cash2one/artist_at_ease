@@ -1,0 +1,28 @@
++ date
++ echo MONITOR: START at Fri Aug 26 20:01:14 UTC 2016
+MONITOR: START at Fri Aug 26 20:01:14 UTC 2016
++ python=python
++ input_file=./static/upload/honghuangzhili.jpg
++ style_file=./static/upload/dog.jpg
++ output_name=honghuangzhili_dog
++ uniq_id=20160827_04:01:14_honghuangzhili_dog_200
++ max_num_epochs=20160827_04:01:14_honghuangzhili_dog_200
++ mkdir -p output/honghuangzhili_dog/
++ /bin/rm -rf output/honghuangzhili_dog/*
++ output_file=output/honghuangzhili_dog/honghuangzhili_dog_20160827_04:01:14_honghuangzhili_dog_200.jpg
++ sh -x update_status.sh 20160827_04:01:14_honghuangzhili_dog_200
++ report_table=neural_style_report
++ status_table=neural_style
++ date +%Y-%m-%d %H:%M:%S
++ end_date=2016-08-26 20:01:14
++ uniq_id=20160827_04:01:14_honghuangzhili_dog_200
++ status=finished
++ mysql=mysql -h 180.76.146.23 -P 3306 -uroot -p123
++ mysql -h 180.76.146.23 -P 3306 -uroot -p123 -e  use artist_at_ease;update neural_style set endtime = '2016-08-26 20:01:14', status = 'finished' where uniq_id = '20160827_04:01:14_honghuangzhili_dog_200';
++ mysql -h 180.76.146.23 -P 3306 -uroot -p123 -e  use artist_at_ease;update neural_style_report set endtime = '2016-08-26 20:01:14', status = 'finished' where uniq_id = '20160827_04:01:14_honghuangzhili_dog_200';
++ mysql -h 180.76.146.23 -P 3306 -uroot -p123 -e  use artist_at_ease;select * from neural_style_report where uniq_id = '20160827_04:01:14_honghuangzhili_dog_200';
++ echo 0
+0
++ date
++ echo MONITOR: END at Fri Aug 26 20:01:14 UTC 2016
+MONITOR: END at Fri Aug 26 20:01:14 UTC 2016

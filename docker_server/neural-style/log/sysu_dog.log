@@ -1,0 +1,15 @@
++ date
++ echo MONITOR: START at Fri Aug 26 20:05:06 UTC 2016
+MONITOR: START at Fri Aug 26 20:05:06 UTC 2016
++ python=python
++ input_file=./static/upload/sysu.jpg
++ style_file=./static/upload/dog.jpg
++ output_name=sysu_dog
++ uniq_id=20160827_04:05:06_sysu_dog_200
++ max_num_epochs=20160827_04:05:06_sysu_dog_200
++ mkdir -p output/sysu_dog/
++ /bin/rm -rf output/sysu_dog/*
++ output_file=output/sysu_dog/sysu_dog_20160827_04:05:06_sysu_dog_200.jpg
++ date
++ echo MONITOR: END at Fri Aug 26 20:05:06 UTC 2016
+MONITOR: END at Fri Aug 26 20:05:06 UTC 2016

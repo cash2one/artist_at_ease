@@ -1,0 +1,161 @@
++ date
++ echo MONITOR: START at Sat Aug 27 05:48:37 UTC 2016
+MONITOR: START at Sat Aug 27 05:48:37 UTC 2016
++ python=python
++ input_file=input/waterfall.jpg
++ style_file=style/qibaishi.jpg
++ output_name=waterfall_qibaishi
++ uniq_id=20160827_13:48:37_waterfall_qibaishi_120
++ max_num_epochs=120
++ mkdir -p output/waterfall_qibaishi/
++ /bin/rm -rf output/waterfall_qibaishi/*
++ output_file=output/waterfall_qibaishi/waterfall_qibaishi_120.jpg
++ python run.py --content-image input/waterfall.jpg --style-image style/qibaishi.jpg --gpu -1 --save-epochs 5 --max-num-epochs 120 --output output/waterfall_qibaishi/waterfall_qibaishi_120.jpg
+libdc1394 error: Failed to initialize libdc1394
+INFO:root:load the content image, size = (678, 1024)
+INFO:root:resize the content image to (397, 600)
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:48:37] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+Skip argument target_gram_0
+Skip argument target_gram_1
+Skip argument target_gram_2
+Skip argument target_gram_3
+Skip argument target_gram_4
+Skip argument target_content
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+[05:49:17] src/operator/./reshape-inl.h:249: Using target_shape will be deprecated.
+INFO:root:start training arguments Namespace(content_image='input/waterfall.jpg', content_weight=10, gpu=-1, lr=0.001, max_long_edge=600, max_num_epochs=120, model='vgg19', output='output/waterfall_qibaishi/waterfall_qibaishi_120.jpg', remove_noise=0.02, save_epochs=5, stop_eps=0.005, style_image='style/qibaishi.jpg', style_weight=1, tv_weight=0.01)
+INFO:root:epoch 0, relative change 0.996881
+INFO:root:epoch 1, relative change 0.642886
+INFO:root:epoch 2, relative change 0.483665
+INFO:root:epoch 3, relative change 0.390409
+INFO:root:epoch 4, relative change 0.320440
+INFO:root:save output to output/tmp_5.jpg
+/usr/local/lib/python2.7/dist-packages/skimage/util/dtype.py:110: UserWarning: Possible precision loss when converting from float64 to uint8
+  "%s to %s" % (dtypeobj_in, dtypeobj))
+INFO:root:epoch 5, relative change 0.245529
+INFO:root:epoch 6, relative change 0.188711
+INFO:root:epoch 7, relative change 0.153001
+INFO:root:epoch 8, relative change 0.134365
+INFO:root:epoch 9, relative change 0.129418
+INFO:root:save output to output/tmp_10.jpg
+INFO:root:epoch 10, relative change 0.133397
+INFO:root:epoch 11, relative change 0.139990
+INFO:root:epoch 12, relative change 0.141233
+INFO:root:epoch 13, relative change 0.136341
+INFO:root:epoch 14, relative change 0.125499
+INFO:root:save output to output/tmp_15.jpg
+INFO:root:epoch 15, relative change 0.107925
+INFO:root:epoch 16, relative change 0.093462
+INFO:root:epoch 17, relative change 0.084859
+INFO:root:epoch 18, relative change 0.081666
+INFO:root:epoch 19, relative change 0.082341
+INFO:root:save output to output/tmp_20.jpg
+INFO:root:epoch 20, relative change 0.084746
+INFO:root:epoch 21, relative change 0.086512
+INFO:root:epoch 22, relative change 0.086958
+INFO:root:epoch 23, relative change 0.086067
+INFO:root:epoch 24, relative change 0.084526
+INFO:root:save output to output/tmp_25.jpg
+INFO:root:epoch 25, relative change 0.082622
+INFO:root:epoch 26, relative change 0.080406
+INFO:root:epoch 27, relative change 0.078265
+INFO:root:epoch 28, relative change 0.076235
+INFO:root:epoch 29, relative change 0.074078
+INFO:root:save output to output/tmp_30.jpg
+INFO:root:epoch 30, relative change 0.072018
+INFO:root:epoch 31, relative change 0.069983
+INFO:root:epoch 32, relative change 0.067673
+INFO:root:epoch 33, relative change 0.065612
+INFO:root:epoch 34, relative change 0.063349
+INFO:root:save output to output/tmp_35.jpg
+INFO:root:epoch 35, relative change 0.061354
+INFO:root:epoch 36, relative change 0.059601
+INFO:root:epoch 37, relative change 0.058069
+INFO:root:epoch 38, relative change 0.056735
+INFO:root:epoch 39, relative change 0.055457
+INFO:root:save output to output/tmp_40.jpg
+INFO:root:epoch 40, relative change 0.054100
+INFO:root:epoch 41, relative change 0.052784
+INFO:root:epoch 42, relative change 0.051674
+INFO:root:epoch 43, relative change 0.050634
+INFO:root:epoch 44, relative change 0.049732
+INFO:root:save output to output/tmp_45.jpg
+INFO:root:epoch 45, relative change 0.048871
+INFO:root:epoch 46, relative change 0.047960
+INFO:root:epoch 47, relative change 0.047270
+INFO:root:epoch 48, relative change 0.046490
+INFO:root:epoch 49, relative change 0.045905
+INFO:root:save output to output/tmp_50.jpg
+INFO:root:epoch 50, relative change 0.045104
+INFO:root:epoch 51, relative change 0.044330
+INFO:root:epoch 52, relative change 0.043368
+INFO:root:epoch 53, relative change 0.042292
+INFO:root:epoch 54, relative change 0.040872
+INFO:root:save output to output/tmp_55.jpg
+INFO:root:epoch 55, relative change 0.039177
+INFO:root:epoch 56, relative change 0.037193
+INFO:root:epoch 57, relative change 0.035528
+INFO:root:epoch 58, relative change 0.033886
+INFO:root:epoch 59, relative change 0.032468
+INFO:root:save output to output/tmp_60.jpg
+INFO:root:epoch 60, relative change 0.030714
+INFO:root:epoch 61, relative change 0.029021
+INFO:root:epoch 62, relative change 0.027664
+INFO:root:epoch 63, relative change 0.026522
+INFO:root:epoch 64, relative change 0.024908
+INFO:root:save output to output/tmp_65.jpg
+INFO:root:epoch 65, relative change 0.023315
+INFO:root:epoch 66, relative change 0.022364
+INFO:root:epoch 67, relative change 0.021821
+INFO:root:epoch 68, relative change 0.020425
+INFO:root:epoch 69, relative change 0.018991
+INFO:root:save output to output/tmp_70.jpg
+[1.0249397e-09, 1.0275278e-09, 1.0275278e-09, 1.0380129e-09, 4.2958304e-09, 10.0]
+Traceback (most recent call last):
+  File "run.py", line 224, in <module>
+    SaveImage(new_img.asnumpy(), 'output/tmp_'+str(e+1)+'.jpg')
+  File "run.py", line 92, in SaveImage
+    io.imsave(filename, out)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/util/dtype.py", line 374, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/usr/local/lib/python2.7/dist-packages/skimage/util/dtype.py", line 205, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
++ date
++ echo MONITOR: END at Sat Aug 27 06:41:39 UTC 2016
+MONITOR: END at Sat Aug 27 06:41:39 UTC 2016
