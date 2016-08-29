@@ -2,7 +2,7 @@
 
 <p>e.g. your server ip is 180.76.146.23</p>
 <p>you can see the demo in a month...</p>
-[baidu hackathon demo website](http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/)
+click here --> [baidu hackathon demo website](http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/)
 
 
 Preparations-git src
