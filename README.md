@@ -1,8 +1,8 @@
 # artist_at_ease
 
-<p>e.g. your server ip is 180.76.146.23</p>
+<p>e.g. your server ip is xxxx</p>
 <p>you can see the demo in a month...</p>
-click here --> [baidu hackathon demo website](http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/)
+click here --> [baidu hackathon demo website](http://xxxxxxx/)
 
 
 Preparations-git src
@@ -49,7 +49,7 @@ sh -x download.sh
 Start servers-gt_server
 --------
 * **login docker container(default password is 123)**
-<pre><code>sh root@180.76.146.23 -p 50002
+<pre><code>sh root@xxxx -p 50002
 </code></pre>
 
 * **inside docker container, run**
