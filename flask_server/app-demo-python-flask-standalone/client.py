@@ -1,7 +1,7 @@
 import socket                   # Import socket module
 
 s = socket.socket()             # Create a socket object
-host = '180.76.146.23'
+host = 'xxxxxxxxxxxx'
 port = 60001                    # Reserve a port for your service.
 
 s.connect((host, port))

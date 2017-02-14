@@ -14,16 +14,16 @@ app = Flask(__name__, static_url_path='')
 
 #UPLOAD_FOLDER = ""
 
-MAIN_URL_PATH = "http://cp01-daiwk-docker-test1.epc.baidu.com:8888/" # offline
+MAIN_URL_PATH = "http://xxxxxxxxxxxx/" # offline
 
-GT_SERVER_PATH = "180.76.146.23"
+GT_SERVER_PATH = "xxxxx"
 GT_SERVER_PORT = 8001
 MAX_NUM_EPOCHS = 120
 
 WGET_PATH_MAIN = "http://" + GT_SERVER_PATH + ":8888/output/"
 
-#MAIN_URL_PATH = "http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/" # online
-#GT_SERVER_PATH = "m1-auto-opt-07.m1.baidu.com" # offline -not used...
+#MAIN_URL_PATH = "http://xxxxxxxxxxxx/" # online
+#GT_SERVER_PATH = "xxxxxxxxxxxxx" # offline -not used...
 
 UPLOAD_FOLDER = "./static/upload/"
 
@@ -110,7 +110,7 @@ def send_to_gt(data, method):
 @app.route('/static/<path:filename>')
 def send_js(filename):
     return send_from_directory('static',filename)
-    ## which means http://cp01-daiwk-docker-test1.epc.baidu.com:8888/static/images/2.jpg
+    ## which means http://xxxxxxxxx/static/images/2.jpg
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.',1)[1].lower() in ALLOWED_EXTENSIONS

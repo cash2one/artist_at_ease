@@ -1,10 +1,10 @@
-#curl cp01-daiwk-docker-test1.epc.baidu.com:8888 -d '{"userid":111, "word_list": ["¿§·ÈÍõ×ÓÒ»ºÅµê", "É¨ÃèÌ½ÕëÏÔÎ¢¾µ"]}'
-#curl http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/ -d '{"userid":111, "word_list": ["¿§·ÈÍõ×ÓÒ»ºÅµê", "É¨ÃèÌ½ÕëÏÔÎ¢¾µ"]}'
-#curl http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/ -d '{"input_file": "input/lzj-daye.jpg", "max_num_epochs": 200, "style_file": "style/starry_night.jpg", "output_name": "lzj_starry_night", "method": "getNeuralStyle"}'
+#curl xxxxx:8888 -d '{"userid":111, "word_list": ["¿§·ÈÍõ×ÓÒ»ºÅµê", "É¨ÃèÌ½ÕëÏÔÎ¢¾µ"]}'
+#curl http://xxxxx/ -d '{"userid":111, "word_list": ["¿§·ÈÍõ×ÓÒ»ºÅµê", "É¨ÃèÌ½ÕëÏÔÎ¢¾µ"]}'
+#curl http://xxxxx/ -d '{"input_file": "input/lzj-daye.jpg", "max_num_epochs": 200, "style_file": "style/starry_night.jpg", "output_name": "lzj_starry_night", "method": "getNeuralStyle"}'
 
 
-host_name=cp01-daiwk-docker-test1.epc.baidu.com:8888
-#host_name=http://artist-at-ease_0-0-0-1.jpaas-idea.baidu.com/
+host_name=xxxxx:8888
+#host_name=http://xxxxx/
 neural_style_path=/notebooks/daiwk/neural-style/
 neural_style_input=$neural_style_path/input/
 neural_style_style=$neural_style_path/style/

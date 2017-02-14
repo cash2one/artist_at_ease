@@ -7,7 +7,7 @@ uniq_id=$1
 
 status=finished 
 
-mysql="mysql -h 180.76.146.23 -P 3306 -uroot -p123"
+mysql="mysql -h xxxx -P 3306 -uroot -p123"
 
 $mysql -e " use artist_at_ease;update neural_style set endtime = '${end_date}', status = '$status' where uniq_id = '${uniq_id}';"
 $mysql -e " use artist_at_ease;update neural_style_report set endtime = '${end_date}', status = '$status' where uniq_id = '${uniq_id}';"

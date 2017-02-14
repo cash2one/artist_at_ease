@@ -8,7 +8,7 @@
  
 """
 File: new_client.py
-Author: root(root@baidu.com)
+Author: xxxxxxx
 Date: 2016/08/26 23:55:57
 """
 import os
@@ -18,7 +18,7 @@ import httplib
 
 
 def send_file_to_gt():
-    GT_SERVER_PATH = "180.76.146.23"
+    GT_SERVER_PATH = "xxxxxxxxxxxx"
     host = GT_SERVER_PATH
     port = 8001 # Reserve a port for your service.
     method = "sendfile"

@@ -49,8 +49,8 @@ class TestHTTPHandler(CGIHTTPRequestHandler):
         #    json_data = json.JSONDecoder().decode(data)
         json_data = data
         date = time.strftime('%Y%m%d')
-        post_url = "m1-auto-opt-07.m1.baidu.com"
-        #post_url = "cp01-daiwk-docker-test1.epc.baidu.com"
+        post_url = "xxxxxxxxx"
+        #post_url = "xxxxxxxxxx"
         port = 8001
         headers = {'Content-Type': 'application/x-www-form-urlencoded', \
                         'Cache-Control': 'no-cache'}

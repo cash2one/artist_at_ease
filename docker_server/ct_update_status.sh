@@ -10,7 +10,7 @@ check_status=running
 
 status=finished
 
-mysql="mysql -h 180.76.146.23 -P 3306 -uroot -p123"
+mysql="mysql -h xxxxxxxxx -P 3306 -uroot -p123"
 
 echo $end_date
 
